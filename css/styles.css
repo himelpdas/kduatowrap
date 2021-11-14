@@ -1,0 +1,65 @@
+/* Default height for small devices */
+body {
+    background-color: black;
+}
+#intro-example {
+    height: 600px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 1024px) {
+    #intro-example {
+        height: 768px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #intro-example {
+        height: 900px;
+    }
+}
+
+#sub-hero {
+    height: 200px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 1024px) {
+    #sub-hero {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #sub-hero {
+        height: 400px;
+    }
+}
+
+button.btn:hover, a.btn:hover{
+    background-color: var(--bs-light);
+    color: var(--bs-dark);
+    text-shadow: none;
+}
+
+body {
+    text-shadow: 2px 2px 8px var(--bs-dark);
+}
+
+div.card-img-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
