@@ -36,6 +36,10 @@ body {
     }
 }
 
+a.btn, button.btn {
+    backdrop-filter: blur(2px);
+}
+
 button.btn:hover, a.btn:hover{
     background-color: var(--bs-light);
     color: var(--bs-dark);
